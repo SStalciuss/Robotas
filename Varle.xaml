@@ -241,7 +241,7 @@
                       </Assign.To>
                       <Assign.Value>
                         <InArgument x:TypeArguments="x:String">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">Price.Trim(new char[] {' ', '€'})</CSharpValue>
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">Price.Trim(new char[] {' ', '€','\n'})</CSharpValue>
                         </InArgument>
                       </Assign.Value>
                     </Assign>
