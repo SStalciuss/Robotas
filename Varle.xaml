@@ -9,7 +9,7 @@
     </InArgument>
   </this:Varle.ItemsToSearch>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>885.6,2460.8</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>884,2693.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -129,19 +129,19 @@
       <AssemblyReference>System.Private.Xml</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Varle" sap:VirtualizedContainerService.HintSize="668.8,2396" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Varle" sap:VirtualizedContainerService.HintSize="668.8,2628.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Prekybos centras internete | Varle.lt" sap:VirtualizedContainerService.HintSize="606.4,2284" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="d2bb2e29-fb55-4e30-bd4f-a2ff7c62625d" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Prekybos centras internete | Varle.lt" sap:VirtualizedContainerService.HintSize="606.4,2516.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="d2bb2e29-fb55-4e30-bd4f-a2ff7c62625d" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="572.8,2067.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="572.8,2300" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="LinkToItem" />
               <Variable x:TypeArguments="x:String" Name="Price" />
@@ -151,13 +151,13 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="510.4,1955.2" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="510.4,2188" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:String">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:String" Name="currentItem" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="476.8,1767.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="476.8,2000" sap2010:WorkflowViewState.IdRef="Sequence_3">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="sd:DataRow" Name="tableRow" />
                     </Sequence.Variables>
@@ -273,6 +273,18 @@
                       <ui:UpdateRowItem.Value>
                         <InArgument x:TypeArguments="x:Object">
                           <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">LinkToItem</CSharpValue>
+                        </InArgument>
+                      </ui:UpdateRowItem.Value>
+                    </ui:UpdateRowItem>
+                    <ui:UpdateRowItem ColumnIndex="{x:Null}" ColumnName="ItemName" DisplayName="Saskaitos numerio priskyrimas" sap:VirtualizedContainerService.HintSize="433.6,192.8" sap2010:WorkflowViewState.IdRef="UpdateRowItem_3">
+                      <ui:UpdateRowItem.Row>
+                        <InArgument x:TypeArguments="sd:DataRow">
+                          <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">tableRow</CSharpValue>
+                        </InArgument>
+                      </ui:UpdateRowItem.Row>
+                      <ui:UpdateRowItem.Value>
+                        <InArgument x:TypeArguments="x:Object">
+                          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">currentItem</CSharpValue>
                         </InArgument>
                       </ui:UpdateRowItem.Value>
                     </ui:UpdateRowItem>
