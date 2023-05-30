@@ -113,7 +113,7 @@
     <Sequence.Variables>
       <Variable x:TypeArguments="s:String[]" Name="ItemsToSearch">
         <Variable.Default>
-          <CSharpValue x:TypeArguments="s:String[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_39">new string[]{"usb atmintine 32gb", "Iphone 11","Jbl go"}</CSharpValue>
+          <CSharpValue x:TypeArguments="s:String[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_46" xml:space="preserve">new string[]{ "iphone 14  pro space black 128gb", "samsung s22 Juodas 128gb", "google pixel 7 juodas 128gb"}</CSharpValue>
         </Variable.Default>
       </Variable>
       <Variable x:TypeArguments="x:String" Name="excelPath" />
