@@ -1,0 +1,8 @@
+Laba diena,
+
+Su malonumu norime pateikti Jūsų norimų prekių pigiausius variantus:
+
+{0}
+
+Pagarbiai
+Robotas HubaBuba
