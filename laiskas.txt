@@ -1,8 +1,8 @@
-Laba diena,
+Laba diena, <br/><br/>
 
-Su malonumu norime pateikti Jūsų norimų prekių pigiausius variantus:
+Su malonumu norime pateikti Jūsų norimų prekių pigiausius variantus:<br/><br/>
 
 {0}
-
-Pagarbiai
+<br/>
+Pagarbiai<br/>
 Robotas HubaBuba
