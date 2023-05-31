@@ -9,7 +9,7 @@
     </InArgument>
   </this:PiguLt.ItemsToSearch>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>884,3167.2</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>824,3161.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -116,19 +116,19 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PiguLt" sap:VirtualizedContainerService.HintSize="769.6,3102.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PiguLt" sap:VirtualizedContainerService.HintSize="768,3096.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Pigu.lt - prekybos centras internete" sap:VirtualizedContainerService.HintSize="707.2,2990.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="d2bb2e29-fb55-4e30-bd4f-a2ff7c62625d" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Pigu.lt - prekybos centras internete" sap:VirtualizedContainerService.HintSize="705.6,2984.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="d2bb2e29-fb55-4e30-bd4f-a2ff7c62625d" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="673.6,2773.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="672,2768" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="LinkToItem" />
               <Variable x:TypeArguments="x:String" Name="Price" />
@@ -138,13 +138,13 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="611.2,2658.4" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="609.6,2652.8" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:String">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:String" Name="currentItem" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="577.6,2470.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="576,2464.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="sd:DataRow" Name="tableRow" />
                     </Sequence.Variables>
@@ -153,7 +153,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Assign DisplayName="Eilutes inicijavimas" sap:VirtualizedContainerService.HintSize="534.4,81.6" sap2010:WorkflowViewState.IdRef="Assign_3">
+                    <Assign DisplayName="Eilutes inicijavimas" sap:VirtualizedContainerService.HintSize="532.8,81.6" sap2010:WorkflowViewState.IdRef="Assign_3">
                       <Assign.To>
                         <OutArgument x:TypeArguments="sd:DataRow">
                           <CSharpReference x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpReference`1_14">tableRow</CSharpReference>
@@ -165,7 +165,7 @@
                         </InArgument>
                       </Assign.Value>
                     </Assign>
-                    <ui:AddDataRow ArrayRow="{x:Null}" DisplayName="Eilutes pridejimas" sap:VirtualizedContainerService.HintSize="534.4,188" sap2010:WorkflowViewState.IdRef="AddDataRow_2">
+                    <ui:AddDataRow ArrayRow="{x:Null}" DisplayName="Eilutes pridejimas" sap:VirtualizedContainerService.HintSize="532.8,188" sap2010:WorkflowViewState.IdRef="AddDataRow_2">
                       <ui:AddDataRow.DataRow>
                         <InArgument x:TypeArguments="sd:DataRow">
                           <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">tableRow</CSharpValue>
@@ -177,7 +177,7 @@
                         </InOutArgument>
                       </ui:AddDataRow.DataTable>
                     </ui:AddDataRow>
-                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="536,550.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="532.8,1327.2" sap2010:WorkflowViewState.IdRef="TryCatch_1">
                       <TryCatch.Try>
                         <Sequence sap:VirtualizedContainerService.HintSize="496,1096" sap2010:WorkflowViewState.IdRef="Sequence_6">
                           <sap:WorkflowViewStateService.ViewState>
@@ -228,7 +228,7 @@
                               </OutArgument>
                             </uix:NGetText.TextString>
                           </uix:NGetText>
-                          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_4">
+                          <Assign DisplayName="Kainos priskyrimas" sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_4">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:String">
                                 <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">Price</CSharpReference>
@@ -240,7 +240,7 @@
                               </InArgument>
                             </Assign.Value>
                           </Assign>
-                          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_7">
+                          <Assign DisplayName="Kainos koregavimas" sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_7">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:String">
                                 <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_15">Price</CSharpReference>
@@ -262,10 +262,10 @@
                         </Sequence>
                       </TryCatch.Try>
                       <TryCatch.Catches>
-                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="502.4,385.6" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="499.2,22.4" sap2010:WorkflowViewState.IdRef="Catch`1_1">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
@@ -304,7 +304,7 @@
                         </Catch>
                       </TryCatch.Catches>
                     </TryCatch>
-                    <ui:UpdateRowItem ColumnIndex="{x:Null}" ColumnName="Price" DisplayName="Saskaitos numerio priskyrimas" sap:VirtualizedContainerService.HintSize="534.4,192.8" sap2010:WorkflowViewState.IdRef="UpdateRowItem_4">
+                    <ui:UpdateRowItem ColumnIndex="{x:Null}" ColumnName="Price" DisplayName="Saskaitos numerio priskyrimas" sap:VirtualizedContainerService.HintSize="532.8,192.8" sap2010:WorkflowViewState.IdRef="UpdateRowItem_4">
                       <ui:UpdateRowItem.Row>
                         <InArgument x:TypeArguments="sd:DataRow">
                           <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">tableRow</CSharpValue>
@@ -316,7 +316,7 @@
                         </InArgument>
                       </ui:UpdateRowItem.Value>
                     </ui:UpdateRowItem>
-                    <ui:UpdateRowItem ColumnIndex="{x:Null}" ColumnName="LinkToItem" DisplayName="Saskaitos numerio priskyrimas" sap:VirtualizedContainerService.HintSize="534,192" sap2010:WorkflowViewState.IdRef="UpdateRowItem_5">
+                    <ui:UpdateRowItem ColumnIndex="{x:Null}" ColumnName="LinkToItem" DisplayName="Saskaitos numerio priskyrimas" sap:VirtualizedContainerService.HintSize="532.8,192.8" sap2010:WorkflowViewState.IdRef="UpdateRowItem_5">
                       <ui:UpdateRowItem.Row>
                         <InArgument x:TypeArguments="sd:DataRow">
                           <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">tableRow</CSharpValue>
@@ -328,7 +328,7 @@
                         </InArgument>
                       </ui:UpdateRowItem.Value>
                     </ui:UpdateRowItem>
-                    <ui:UpdateRowItem ColumnIndex="{x:Null}" ColumnName="ItemName" DisplayName="Saskaitos numerio priskyrimas" sap:VirtualizedContainerService.HintSize="534,192" sap2010:WorkflowViewState.IdRef="UpdateRowItem_6">
+                    <ui:UpdateRowItem ColumnIndex="{x:Null}" ColumnName="ItemName" DisplayName="Saskaitos numerio priskyrimas" sap:VirtualizedContainerService.HintSize="532.8,192.8" sap2010:WorkflowViewState.IdRef="UpdateRowItem_6">
                       <ui:UpdateRowItem.Row>
                         <InArgument x:TypeArguments="sd:DataRow">
                           <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">tableRow</CSharpValue>
